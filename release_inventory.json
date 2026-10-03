@@ -1,0 +1,148 @@
+{
+  "package": "paper-c-replication",
+  "version": "0.1.0",
+  "review_date": "2026-10-03",
+  "boundary": "No empirical Clarivate inputs, J-derived records, benchmark-conditioned data, comparison outputs or manuscripts.",
+  "files": {
+    ".gitignore": {
+      "sha256": "07e885bfba80bf3c0e5d3f394c823ddbceee2512af2ce7f1047520e07d96f8bc",
+      "bytes": 433,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "LICENSE": {
+      "sha256": "66d9863acccfb46b7c0bd3d0920e55d7e849273f010a17f8df5499a3d601a07a",
+      "bytes": 1472,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "README.md": {
+      "sha256": "160ed5e5715545e1c5dd4476728be97a32b60c2872fa42be8cb601c9363a8eb7",
+      "bytes": 5433,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "code_provenance.json": {
+      "sha256": "7cdb96536142652069ffcf5fc44a6521ee9042bae1316c81439fe625076afb12",
+      "bytes": 1033,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "data/open/leiden_scores.csv.gz": {
+      "sha256": "72dfa6f4427f322e93636dcd01b3d6ca65e052c3ea47b0b8e8bf99830cdefeed",
+      "bytes": 2592226,
+      "classification": "open_full_population_scores"
+    },
+    "data/open/norwegian_additional_nodes.csv.gz": {
+      "sha256": "4e5956d4ca78c291caeabc28de9e6ce8d3d6baf96b5df13495b53e5a5f9e99c5",
+      "bytes": 14094,
+      "classification": "open_full_population_scores"
+    },
+    "data/open/provenance.json": {
+      "sha256": "013fe830e056a901df6f44d3b2f07eba8943717eac0eac540c433b21f5648f54",
+      "bytes": 2173,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "docs/DISCLOSURE_BOUNDARY.md": {
+      "sha256": "04a852509dc647d069a89fb91b1cd8df33746b416efc649714256a370101e5eb",
+      "bytes": 4137,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "docs/INPUTS.md": {
+      "sha256": "9763e418b0fd2997870020abd74aa656d883aadaf449baed18c4354a292b3209",
+      "bytes": 7318,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "docs/METHODS.md": {
+      "sha256": "ecce4b0b2fb67333bf2082b971cbd431b60b800c70f65a25420352b7f91bdc27",
+      "bytes": 2647,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "docs/RESULTS_MAP.md": {
+      "sha256": "d3696de8bb79ab75338569d1693efd41a64a5fb4502dbf13d00aec23e82138a4",
+      "bytes": 3831,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "docs/VALIDATION.md": {
+      "sha256": "4c8977c7eedbf731dce3e0cfdc42065fa58a80cc966e3faa7a38bd788c21fff1",
+      "bytes": 3086,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "paper_c_replication/__init__.py": {
+      "sha256": "143e7faac4326deb72fa46ac85e30a870b0ec65a3415420adf86b283fec823af",
+      "bytes": 69,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "paper_c_replication/__main__.py": {
+      "sha256": "647e5dcd3bead55d411f9a4e0af3781cf31fe6ec54cbfc2b4e0dff9beb9d9084",
+      "bytes": 1201,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "paper_c_replication/analysis.py": {
+      "sha256": "9851ed828cfabdf3a96ac5fd2c5e8d54bdf901623f05a8902bc606ad6104a841",
+      "bytes": 11933,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "paper_c_replication/contrasts.py": {
+      "sha256": "2c0a18a9b3044dff6bef39394d2cae8d6d24bea09df74880ce22a0c58d86656c",
+      "bytes": 5395,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "paper_c_replication/io.py": {
+      "sha256": "36e1c5d99be84bac25e1b2d26a1a440fcdf2ff73d7f86f76a905c34f9e81f399",
+      "bytes": 5727,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "paper_c_replication/plots.py": {
+      "sha256": "8d7001fa735643cedb727276faa12a1a3eb9dfbb971b490768f1607605e15fbb",
+      "bytes": 23057,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "paper_c_replication/statistics.py": {
+      "sha256": "34ed8483be40ecf7207ec4be073bf82f9411750e7940813fc8806e160733a0d1",
+      "bytes": 27897,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "paper_c_replication/supplement.py": {
+      "sha256": "3b1aebd94406477cf80d8b32c98e66bfb5a53c21bb65e910cdab19710ef1bd19",
+      "bytes": 8378,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "paper_c_replication/synthetic.py": {
+      "sha256": "1026ac0aafade69b38baf10a78c155b9e7f65daa4c440140efb5ff043e46ff1a",
+      "bytes": 3608,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "paper_c_replication/tables.py": {
+      "sha256": "5420c4c4798ebd0dc821f3481db7c11dcaa7f23f6779d9affdcb2815710c7899",
+      "bytes": 5728,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "pyproject.toml": {
+      "sha256": "10e9433fe6c7d2d3ba17e4b956fc2248827502a1543e792565638402a2e544b6",
+      "bytes": 424,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "requirements-tested.txt": {
+      "sha256": "15faed20f67be4f391c0e487202776435f4cc0d779722f6706e39dc285106578",
+      "bytes": 158,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "tests/test_boundary.py": {
+      "sha256": "ab7fba8fc463a73d19bbba2562060459ac9f77279c0720126074501a4b1d03c5",
+      "bytes": 2932,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "tests/test_methods.py": {
+      "sha256": "2fcae19d95f479c7cbd8501597f91febd06e97aef64b01c4c4676355b4095cb4",
+      "bytes": 1896,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "tools/audit_open_data.py": {
+      "sha256": "ecc645c70de81c1aacebe0d04f9650d4ca113a52ebc5c310a31c7584563fee1f",
+      "bytes": 2997,
+      "classification": "reviewed_source_or_documentation"
+    },
+    "tools/build_release.py": {
+      "sha256": "e3fdfc36386c5915e3f59303ef70b2388a70f3aafc9e23a9b0b89cb943fadc57",
+      "bytes": 3469,
+      "classification": "reviewed_source_or_documentation"
+    }
+  }
+}

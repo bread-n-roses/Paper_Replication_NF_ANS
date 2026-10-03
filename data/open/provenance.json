@@ -1,0 +1,48 @@
+{
+  "dataset": "Full Leiden/CWTS-universe NF and ANS, RAW and REF, 2023 and 2024",
+  "snapshot": "2026-09-23",
+  "cwts_releases": {
+    "2023": "10.5281/zenodo.10949671",
+    "2024": "10.5281/zenodo.13879982"
+  },
+  "opindx_software": "10.5281/zenodo.23108424",
+  "identity_rules": "Opindx source-repair-v1 public identity corrections",
+  "scope": "Entire L recursive state. No conditioning on JCR membership, benchmark availability or comparison support.",
+  "state_rule": "Dated CWTS primary_core true and positive RAW article count or incidence to a positive RAW edge; state held fixed across treatments.",
+  "membership_mapping": "Release rows require historical ISSN-L; exact OpenAlex source-ID projection; missing release source arms leave membership undefined.",
+  "columns": [
+    "year",
+    "journal_id",
+    "treatment",
+    "nf",
+    "ans",
+    "article_count",
+    "is_dangling",
+    "is_isolated"
+  ],
+  "rows": 103548,
+  "sha256": "72dfa6f4427f322e93636dcd01b3d6ca65e052c3ea47b0b8e8bf99830cdefeed",
+  "upstream_metadata_licenses": [
+    "OpenAlex CC0",
+    "CWTS releases CC0"
+  ],
+  "included_restricted_inputs": false,
+  "verification": [
+    "Full L membership agrees with CWTS flags and RAW activity.",
+    "NF mass is 100 per year and treatment.",
+    "ANS agrees with NF/100 divided by eligible article share."
+  ],
+  "construction": "Existing precomputed scores; solver was not rerun for this package.",
+  "additional_n_nodes": {
+    "file": "norwegian_additional_nodes.csv.gz",
+    "rows": 1524,
+    "sha256": "4e5956d4ca78c291caeabc28de9e6ce8d3d6baf96b5df13495b53e5a5f9e99c5",
+    "selection": "Entire N recursive-state node set minus the published Opindx journal export. No JCR or benchmark condition.",
+    "reason": "The website export filters source types; full N analysis retains these scoring-state members.",
+    "upstream_metadata_licenses": [
+      "OpenAlex CC0",
+      "Norwegian Register NLOD 2.0"
+    ],
+    "attribution": "Norwegian Directorate for Higher Education and Skills (HK-dir), Norwegian Register for Scientific Journals, Series and Publishers, input vintage 2026-07-26."
+  }
+}

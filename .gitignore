@@ -1,0 +1,22 @@
+# Default deny: only reviewed source, docs and the release inventory are eligible.
+*
+!.gitignore
+!README.md
+!LICENSE
+!pyproject.toml
+!requirements-tested.txt
+!code_provenance.json
+!release_inventory.json
+!docs/
+!docs/*.md
+!paper_c_replication/
+!paper_c_replication/*.py
+!tests/
+!tests/*.py
+!tools/
+!tools/*.py
+!data/
+!data/open/
+!data/open/leiden_scores.csv.gz
+!data/open/norwegian_additional_nodes.csv.gz
+!data/open/provenance.json

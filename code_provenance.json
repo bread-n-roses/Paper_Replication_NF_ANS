@@ -1,0 +1,28 @@
+{
+  "version": "0.1.0",
+  "scope": "Data-parameterized statistics and graphics only; no score solver",
+  "upstream_modules": [
+    {
+      "file": "analysis_statistics.py",
+      "sha256": "34ed8483be40ecf7207ec4be073bf82f9411750e7940813fc8806e160733a0d1"
+    },
+    {
+      "file": "run_primary_analysis.py",
+      "sha256": "3e77c00f806baf1ed9ce9d701715ca4962b94be30592bb6aa0af0f26bcf9cc7e"
+    },
+    {
+      "file": "build_manuscript_displays.py",
+      "sha256": "28de02b80021b41b6787dad3cd0cd7768ee9ac20bb6b3504973d271a7c88f6e8"
+    },
+    {
+      "file": "build_supplement_displays.py",
+      "sha256": "bc6f02b5512ed686d28c7d22753331518a8285152dbdadb56efcc9dc948f3f47"
+    }
+  ],
+  "adaptations": [
+    "Removed repository I/O and empirical assertions/constants from exported functions.",
+    "Updated display notation to AIS, ANS and NF.",
+    "Field inventory is computed from input data.",
+    "Endpoint annotation spacing adapts to close plotted values; numerical values are unchanged."
+  ]
+}
