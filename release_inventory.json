@@ -1,7 +1,7 @@
 {
   "package": "paper-c-replication",
   "version": "0.1.0",
-  "review_date": "2026-10-03",
+  "review_date": "2026-10-04",
   "boundary": "No empirical Clarivate inputs, J-derived records, benchmark-conditioned data, comparison outputs or manuscripts.",
   "files": {
     ".gitignore": {
@@ -15,8 +15,8 @@
       "classification": "reviewed_source_or_documentation"
     },
     "README.md": {
-      "sha256": "160ed5e5715545e1c5dd4476728be97a32b60c2872fa42be8cb601c9363a8eb7",
-      "bytes": 5433,
+      "sha256": "cf08fc99ca0b75148f8f06d4ba492229ed655163861348ea303db35457de17f7",
+      "bytes": 5444,
       "classification": "reviewed_source_or_documentation"
     },
     "code_provenance.json": {
