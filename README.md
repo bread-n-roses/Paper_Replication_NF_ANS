@@ -1,9 +1,8 @@
-# Paper C replication package
+# Replication package for the paper 
+*Reference Observability and Journal Universe Choice in Open Reconstructions
+of Recursive Journal Metrics* by Utz Weitzel (VU Amsterdam & Radboud University)
 
 **Version 0.1.0 — downstream analysis from precomputed scores.**
-
-For *Reference Observability and Journal Universe Choice in Open Reconstructions
-of Recursive Journal Metrics*, main paper and online supplement, version 4.
 
 This package recreates the statistical analyses, numerical table contents and
 figures from journal-level inputs. NF/ANS construction is an upstream step:
